@@ -1,0 +1,19 @@
+criando um component angular 2 manualmente
+
+import { Component } from '@angular/core'; //importamos do core do angular
+
+@Component({
+  selector: 'meu-primeiro-component', //declaramos o seletor <tag>
+  template: `<p> Meu primeiro component com Angular 2</p>`, //o que ele faz, pode ser linkado para uma página
+  styleUrls: [] //array com links de folhas de stylo
+})
+
+export class MeuPrimeiroComponent {} // exportamos o arquivo da classe
+
+//importamos a classe exportada no module e colocamos em declarations
+
+//agora é só usar o component criado
+
+
+
+
